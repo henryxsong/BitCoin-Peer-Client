@@ -21,7 +21,6 @@ from time import strftime, gmtime
 
 HDR_SZ = 24
 BUF_SZ = 18027
-MY_SUID = 4053312
 
 # change FIND_THIS_BLOCK to the block height you want to find
 # currently locates block #2021. 
