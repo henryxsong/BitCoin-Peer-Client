@@ -1,0 +1,280 @@
+Connecting to peer: 67.210.228.203:8333
+SUCCESS: Socket connection established to peer 67.210.228.203:8333
+Sending message to peer 67.210.228.203:8333
+
+sending MESSAGE
+(110) f9beb4d976657273696f6e0000000000560000002eec04c77f1101000000000000000000e546ac610000000000000000000000000000000000000000...
+  HEADER
+  --------------------------------------------------------
+    f9beb4d9                         magic
+    76657273696f6e0000000000         command: version
+    56000000                         payload size: 86
+    2eec04c7                         checksum (verified)
+  VERSION
+  --------------------------------------------------------
+    7f110100                         version 70015
+    0000000000000000                 my services
+    e546ac6100000000                 epoch time Sun, 05 Dec 2021 04:58:13 GMT
+    0000000000000000                 your services
+    00000000000000000000ffff43d2e4cb your host 67.210.228.203
+    8d20                             your port 8333
+    0000000000000000                 my services (again)
+    00000000000000000000ffffc0a800ba my host 192.168.0.186
+    27f8                             my port 63527
+    0000000000000000                 nonce
+    00                               user agent size 0
+                                     user agent ''
+    00000000                         start height 0
+    00                               relay False
+
+received MESSAGE
+(126) f9beb4d976657273696f6e0000000000660000005d5d65317f1101000904000000000000e546ac610000000000000000000000000000000000000000...
+  HEADER
+  --------------------------------------------------------
+    f9beb4d9                         magic
+    76657273696f6e0000000000         command: version
+    66000000                         payload size: 102
+    5d5d6531                         checksum (verified)
+  VERSION
+  --------------------------------------------------------
+    7f110100                         version 70015
+    0904000000000000                 my services
+    e546ac6100000000                 epoch time Sun, 05 Dec 2021 04:58:13 GMT
+    0000000000000000                 your services
+    00000000000000000000ffffae7fe82b your host 174.127.232.43
+    f827                             your port 10232
+    0904000000000000                 my services (again)
+    00000000000000000000000000000000 my host 0.0.0.0
+    0000                             my port 0
+    9936ebb92e874c18                 nonce
+    10                               user agent size 16
+    2f5361746f7368693a302e32302e302f user agent '/Satoshi:0.20.0/'
+    cbdf0a00                         start height 712651
+    01                               relay True
+
+received MESSAGE
+(24) f9beb4d976657261636b000000000000000000005df6e0e2
+  HEADER
+  --------------------------------------------------------
+    f9beb4d9                         magic
+    76657261636b000000000000         command: verack
+    00000000                         payload size: 0
+    5df6e0e2                         checksum (verified)
+
+sending MESSAGE
+(24) f9beb4d976657261636b000000000000000000005df6e0e2
+  HEADER
+  --------------------------------------------------------
+    f9beb4d9                         magic
+    76657261636b000000000000         command: verack
+    00000000                         payload size: 0
+    5df6e0e2                         checksum (verified)
+
+received MESSAGE
+(24) f9beb4d973656e646865616465727300000000005df6e0e2
+  HEADER
+  --------------------------------------------------------
+    f9beb4d9                         magic
+    73656e646865616465727300         command: sendheaders
+    00000000                         payload size: 0
+    5df6e0e2                         checksum (verified)
+
+received MESSAGE
+(33) f9beb4d973656e64636d70637400000009000000e92f5ef8000200000000000000
+  HEADER
+  --------------------------------------------------------
+    f9beb4d9                         magic
+    73656e64636d706374000000         command: sendcmpct
+    09000000                         payload size: 9
+    e92f5ef8                         checksum (verified)
+
+received MESSAGE
+(33) f9beb4d973656e64636d70637400000009000000ccfe104a000100000000000000
+  HEADER
+  --------------------------------------------------------
+    f9beb4d9                         magic
+    73656e64636d706374000000         command: sendcmpct
+    09000000                         payload size: 9
+    ccfe104a                         checksum (verified)
+
+received MESSAGE
+(32) f9beb4d970696e6700000000000000000800000000605f21f8a436d4c09c64b9
+  HEADER
+  --------------------------------------------------------
+    f9beb4d9                         magic
+    70696e670000000000000000         command: ping
+    08000000                         payload size: 8
+    00605f21                         checksum (verified)
+
+received MESSAGE
+(55) f9beb4d96164647200000000000000001f000000d93bbd5201e546ac61090400000000000000000000000000000000ffff43d2e4cb208d
+  HEADER
+  --------------------------------------------------------
+    f9beb4d9                         magic
+    616464720000000000000000         command: addr
+    1f000000                         payload size: 31
+    d93bbd52                         checksum (verified)
+
+received MESSAGE
+(32) f9beb4d966656566696c746572000000080000008265cb230b00000000000000
+  HEADER
+  --------------------------------------------------------
+    f9beb4d9                         magic
+    66656566696c746572000000         command: feefilter
+    08000000                         payload size: 8
+    8265cb23                         checksum (verified)
+
+BUILDING LOCAL BLOCKCHAIN...
+Please wait, this part might take a while
+Grab a coffee while you wait :)
+
+
+sending MESSAGE
+(93) f9beb4d9676574626c6f636b730000004500000084f4958d7f110100016fe28c0ab6f1b372c1a6a246ae63f74f931e8365e15a089c68d61900000000...
+  HEADER
+  --------------------------------------------------------
+    f9beb4d9                         magic
+    676574626c6f636b73000000         command: getblocks
+    45000000                         payload size: 69
+    84f4958d                         checksum (verified)
+
+received MESSAGE
+(18027) f9beb4d9696e760000000000000000005346000025173c57fdf401020000004860eb18bf1b1620e37e9490fc8a427514416fd75159ab86688e9a8300...
+  HEADER
+  --------------------------------------------------------
+    f9beb4d9                         magic
+    696e76000000000000000000         command: inv
+    53460000                         payload size: 18003
+    25173c57                         checksum (verified)
+Local blockchain height (# of hashes found):  501
+
+sending MESSAGE
+(701) f9beb4d9676574626c6f636b73000000a5020000c8548a5c7f11010014db773c8f3b90efa51d8e40291406897062c164dff617d2a7bf64f64f000000...
+  HEADER
+  --------------------------------------------------------
+    f9beb4d9                         magic
+    676574626c6f636b73000000         command: getblocks
+    a5020000                         payload size: 677
+    c8548a5c                         checksum (verified)
+
+received MESSAGE
+(18027) f9beb4d9696e76000000000000000000534600009dbeb159fdf40102000000f9980503946685d96c93e577fbc9178bf36afda513d16ca79272884600...
+  HEADER
+  --------------------------------------------------------
+    f9beb4d9                         magic
+    696e76000000000000000000         command: inv
+    53460000                         payload size: 18003
+    9dbeb159                         checksum (verified)
+Local blockchain height (# of hashes found):  1001
+
+sending MESSAGE
+(701) f9beb4d9676574626c6f636b73000000a5020000d6ac923b7f1101001409edf646d13d2a7e1da8bdad14d249b037eccd8af23aa704379837c9000000...
+  HEADER
+  --------------------------------------------------------
+    f9beb4d9                         magic
+    676574626c6f636b73000000         command: getblocks
+    a5020000                         payload size: 677
+    d6ac923b                         checksum (verified)
+
+received MESSAGE
+(18027) f9beb4d9696e7600000000000000000053460000e58d51fdfdf40102000000c6b465b2edf2fb5a720f34deb9236bc24b7e2e379e85dbf8447388a200...
+  HEADER
+  --------------------------------------------------------
+    f9beb4d9                         magic
+    696e76000000000000000000         command: inv
+    53460000                         payload size: 18003
+    e58d51fd                         checksum (verified)
+Local blockchain height (# of hashes found):  1501
+
+sending MESSAGE
+(701) f9beb4d9676574626c6f636b73000000a5020000faa3d9007f110100141340bd94b5153ba7e5e9b692b59573843e476cd9b97b5b951a68077d000000...
+  HEADER
+  --------------------------------------------------------
+    f9beb4d9                         magic
+    676574626c6f636b73000000         command: getblocks
+    a5020000                         payload size: 677
+    faa3d900                         checksum (verified)
+
+received MESSAGE
+(18027) f9beb4d9696e760000000000000000005346000011bbf0f9fdf4010200000037866e14a43d83031550147cd771e7d8074999b6270074c47ed3f75400...
+  HEADER
+  --------------------------------------------------------
+    f9beb4d9                         magic
+    696e76000000000000000000         command: inv
+    53460000                         payload size: 18003
+    11bbf0f9                         checksum (verified)
+Local blockchain height (# of hashes found):  2001
+
+sending MESSAGE
+(701) f9beb4d9676574626c6f636b73000000a5020000553638407f110100141a95da875f907fb31f13cb3e93e38f01630af6b8b461859d5cd6d5df000000...
+  HEADER
+  --------------------------------------------------------
+    f9beb4d9                         magic
+    676574626c6f636b73000000         command: getblocks
+    a5020000                         payload size: 677
+    55363840                         checksum (verified)
+
+received MESSAGE
+(18027) f9beb4d9696e76000000000000000000534600006c83aa58fdf40102000000c0b77cb010de866789896e327d6043a92dda7cd6ba5490c4467a216700...
+  HEADER
+  --------------------------------------------------------
+    f9beb4d9                         magic
+    696e76000000000000000000         command: inv
+    53460000                         payload size: 18003
+    6c83aa58                         checksum (verified)
+Local blockchain height (# of hashes found):  2501
+
+...REQUIRED LOCAL BLOCKCHAIN HEIGHT REACHED
+
+sending MESSAGE
+(61) f9beb4d9676574646174610000000000250000005c2905f10102000000870d5b79ba3df5ec418bc5fef364b2f177d9d25ad4e7cfebe6b0a6cd000000...
+  HEADER
+  --------------------------------------------------------
+    f9beb4d9                         magic
+    676574646174610000000000         command: getdata
+    25000000                         payload size: 37
+    5c2905f1                         checksum (verified)
+  GETDATA PAYLOAD
+  --------------------------------------------------------
+    Count: 	1	
+    Value: 	2	
+    Hash: 	870d5b79ba3df5ec418bc5fef364b2f177d9d25ad4e7cfebe6b0a6cd00000000
+
+received MESSAGE
+(240) f9beb4d9626c6f636b00000000000000d8000000e6bfc09b01000000d3910719289a729f251f20c1fb849ceb695d78a5af988c63cd0e09a200000000...
+  HEADER
+  --------------------------------------------------------
+    f9beb4d9                         magic
+    626c6f636b00000000000000         command: block
+    d8000000                         payload size: 216
+    e6bfc09b                         checksum (verified)
+  BLOCK #2021 PAYLOAD | HASH = 870d5b79ba3df5ec418bc5fef364b2f177d9d25ad4e7cfebe6b0a6cd00000000
+  Confirm data accuracy: https://www.blockchain.com/btc/block/2021
+  NOTE: endian order for hashes (prev block & merkle root) different on website :)
+  --------------------------------------------------------
+    Version: 		1
+    Prev Block: 	d3910719289a729f251f20c1fb849ceb695d78a5af988c63cd0e09a200000000
+    Merkle Root: 	2468504982c6dcb1fa2e231fed72a02ce099c011a1248b0556328e246bb77ca3
+    Timestamp: 		Tue, 27 Jan 2009 15:18:12 GMT
+    Bits: 		486604799
+    Nonce: 		1758151688
+    Txn Count: 		1
+    Txns: 		(See Below)                     
+    TRANSACTION(S) PAYLOAD
+    --------------------------------------------------------
+      TRANSACTION #1 out of 1
+      --------------------------------------------------------
+        Version: 	1
+        Flag: 		0
+        TxIn Count: 	1
+        TxIn: 	
+          Previous_Output: 	0000000000000000000000000000000000000000000000000000000000000000ffffffff
+          Script Length: 	8
+          Sigscript: 		04ffff001d021502
+          Sequence: 		4294967295
+        TxOut Count: 	1
+        TxOut: 		
+          Transaction Value: 	50.0 BTC
+          pk_script length: 	67
+          pk_script: 		4104a2c2acaae770f08eb65d2a50274029dce3f77897b184e3711f824abfab01c63013699621628d73d495ebfcd6ee0971b48ef1c5c27898ce95951c21442dd5d4b4ac
+        Lock Time: 	0
